@@ -1,0 +1,23 @@
+login:
+  username: rzimmerm
+  email: raphael.zimmermann@hsr.ch
+
+sync:
+  global-exclude:
+    - .DS_Store
+    - Thumbs.db
+
+  conflict-handling:
+    local-changes: ask # ask | keep | overwrite | makeCopy
+    remote-deleted: ask # ask | delete | keep
+  
+  default-local-dir: /home/rzi/HSR/module/<name>/skript/
+
+  repositories:
+    ComBau:
+      remote-dir: Informatik/Fachbereich/Compilerbau/ComBau/
+    Cloud:
+      remote-dir: Informatik/Fachbereich/Cloud_Solutions/Cloud/
+    WED3:
+      remote-dir: Informatik/Fachbereich/Web_Engineering_+_Design_3/WED3/
+
