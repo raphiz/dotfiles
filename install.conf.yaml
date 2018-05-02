@@ -8,7 +8,9 @@
     ~/.bashrc: bash/.bashrc
     ~/.config/xfce4/panel/xfce4-time-out-plugin-11.rc: xfce4/panel/xfce4-time-out-plugin-11.rc
     ~/.config/qpdfview/shortcuts.conf: qpdfview/shortcuts.conf
-    ~/.local/share/applications/: applications/ # TODO: fix icons!
+    ~/.local/share/applications/: # TODO: fix icons!
+        glob: true
+        path: applications/*
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml: xfce4/xfconf/keyboard-layout.xml
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml: xfce4/xfconf/xfce4-keyboard-shortcuts.xml
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml: xfce4/xfconf/xfce4-panel.xml
