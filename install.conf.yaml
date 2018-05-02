@@ -5,7 +5,9 @@
 
 - link:
     ~/.gitconfig: git/.gitconfig
-    ~/.bashrc: bash/.bashrc
+    ~/.bashrc:
+        force: true
+        path: bash/.bashrc
     ~/.config/xfce4/panel/xfce4-time-out-plugin-11.rc: xfce4/panel/xfce4-time-out-plugin-11.rc
     ~/.config/qpdfview/shortcuts.conf: qpdfview/shortcuts.conf
     ~/.local/share/applications/: # TODO: fix icons!
