@@ -18,7 +18,6 @@
         <value type="int" value="5"/>
         <value type="int" value="2"/>
         <value type="int" value="6"/>
-        <value type="int" value="7"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
@@ -54,16 +53,7 @@
         <value type="string" value="vlc"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="scp-dbus-service.py"/>
-        <value type="string" value=".shutter-wrapped"/>
-        <value type="string" value="psi"/>
-        <value type="string" value="remmina"/>
       </property>
-    </property>
-    <property name="plugin-7" type="string" value="mixer">
-      <property name="sound-card" type="string" value="HDAIntelPCHAlsamixer"/>
-      <property name="track" type="string" value="Master"/>
-      <property name="command" type="string" value="xfce4-mixer"/>
     </property>
     <property name="plugin-8" type="string" value="screenshooter"/>
   </property>
