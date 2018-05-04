@@ -13,6 +13,17 @@ export EDITOR='vim';
 
 alias l='ls -lah'
 alias top='htop'
+alias code='/home/raphiz/apps/VSCode-linux-x64/bin/code'
+# Autojump
+source /etc/profile.d/autojump.bash
+
+# NVM (temporarily)
+# TOO SLOW:
+# source /usr/share/nvm/init-nvm.sh
+alias source_nvm='unalias node && unalias nvm && unalias npm && source "/usr/share/nvm/init-nvm.sh"'
+alias nvm='source_nvm && nvm'
+alias node='source_nvm && node'
+alias npm='source_nvm && npm'
 
 # Append to the history file, don't overwrite it
 shopt -s histappend
