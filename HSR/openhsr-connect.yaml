@@ -11,7 +11,7 @@ sync:
     local-changes: ask # ask | keep | overwrite | makeCopy
     remote-deleted: ask # ask | delete | keep
   
-  default-local-dir: /home/rzi/HSR/module/<name>/skript/
+  default-local-dir: /home/raphiz/HSR/module/<name>/skript/
 
   repositories:
     ComBau:
