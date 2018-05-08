@@ -5,6 +5,9 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+# Source bash prompt
+. ~/.bash_prompt
+
 HISTSIZE=10000
 HISTFILESIZE=10000
 
