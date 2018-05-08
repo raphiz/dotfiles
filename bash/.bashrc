@@ -28,8 +28,8 @@ alias npm='source_nvm && npm'
 # Append to the history file, don't overwrite it
 shopt -s histappend
 
-# Record each line as it gets issued
-PROMPT_COMMAND='history -a'
+# For autojump
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
 
 function o(){
   xdg-open "$*" >/dev/null 2>&1 &
