@@ -4,40 +4,43 @@
       relink: true
 
 - link:
-    ~/.gitconfig: git/.gitconfig
+   # Bash
+    ~/.bash_prompt: sexy-bash-prompt/.bash_prompt
     ~/.bashrc:
         force: true
         path: bash/.bashrc
-    ~/.config/xfce4/panel/xfce4-time-out-plugin-11.rc: xfce4/panel/xfce4-time-out-plugin-11.rc
-    ~/.config/qpdfview/shortcuts.conf: qpdfview/shortcuts.conf
-    ~/.local/share/applications/: # TODO: fix icons!
-        glob: true
-        path: applications/*
+
+    # Git
+    ~/.gitconfig: git/.gitconfig
+
+    # XFCE
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml: xfce4/xfconf/keyboard-layout.xml
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml: xfce4/xfconf/xfce4-keyboard-shortcuts.xml
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml: xfce4/xfconf/xfce4-panel.xml
-    # TODO: xfce4-power-manager.xml
-    # TODO: ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml (theme, icons, dpi, )
+    ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml: xfce4/xfconf/xfce4-power-manager.xml
+    ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: xfce4/xfconf/xsettings.xml # (theme, icons, dpi usw.)
     ~/.config/xfce4/helpers.rc: xfce4/helpers.rc
-    # TODO: ~/.config/xfce4/terminal/terminalrc: ~/.config/xfce4/terminal/terminalrc
+    ~/.config/xfce4/terminal/terminalrc: xfce4/terminalrc
     ~/.Xmodmap: .Xmodmap
+    ~/.config/Thunar/uca.xml: thunar/uac.xml
+    ~/.config/xfce4/panel/xfce4-time-out-plugin-11.rc: xfce4/panel/xfce4-time-out-plugin-11.rc
 
+    # qpdfview
+    ~/.config/qpdfview/shortcuts.conf: qpdfview/shortcuts.conf
+
+    # Default applications & custom launchers
+    ~/.config/mimeapps.list: mimeapps.list
+    ~/.local/share/applications/: # TODO: fix icons!
+        glob: true
+        path: applications/*
+
+    # HSR
     ~/.config/openhsr-connect.yaml: HSR/openhsr-connect.yaml
 
-
     # TODO: add the following (when ready)
-    # also add whiskermenu, screenshoter and clipnam-actions from xfce panel?
-    # also add xfce4/xfce4-screenshooter?
-    # ~/.bash_prompt: sexy-bash-prompt/.bash_prompt
     # .config/calibre
     # .config/Code
-    # network manager stuff?
-    # ./config/libreoffice/ ?!
-    # .config/mimeapps.list
-    # evt: .config/Thunar/
     # evtl. .mozilla
     # evtl. .shutter/
-    # TODO: Fix bashrc and bash_profile responsibility
-    # https://github.com/Excape/dotfiles/blob/master/runcom/bash_profile
 
 - clean: ['~']

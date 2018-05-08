@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "sexy-bash-prompt"]
+	path = sexy-bash-prompt
+	url = git@github.com:twolfson/sexy-bash-prompt.git

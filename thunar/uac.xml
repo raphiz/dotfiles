@@ -1,0 +1,23 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1525284133519943-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>/home/raphiz/apps/VSCode-linux-x64/resources/app/resources/linux/code.png</icon>
+	<name>Open VsCode here</name>
+	<unique-id>1525767107897951-1</unique-id>
+	<command>~/apps/VSCode-linux-x64/bin/code %f</command>
+	<description>Launch vscode</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+</actions>

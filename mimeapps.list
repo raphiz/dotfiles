@@ -1,0 +1,22 @@
+[Added Associations]
+application/x-yaml=notepadqq.desktop;libreoffice-writer.desktop;
+text/plain=notepadqq.desktop;
+application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;
+image/png=viewnior.desktop;gimp.desktop;
+application/x-keepass2=org.keepassxc.KeePassXC.desktop;
+image/jpeg=gimp.desktop;
+application/pdf=qpdfview.desktop;
+application/javascript=notepadqq.desktop;
+application/json=notepadqq.desktop;
+x-scheme-handler/mailto=thunderbird.desktop;
+message/rfc822=thunderbird.desktop;
+application/zip=xarchiver.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+video/mp4=vlc.desktop;
+text/x-python=notepadqq.desktop;
+text/markdown=notepadqq.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=thunderbird.desktop
+message/rfc822=thunderbird.desktop
+image/png=viewnior.desktop
