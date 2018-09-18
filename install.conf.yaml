@@ -34,8 +34,8 @@
         glob: true
         path: applications/*
 
-    # HSR
-    ~/.config/openhsr-connect.yaml: HSR/openhsr-connect.yaml
+    # redshift
+    ~/.config/redshift/redshift.conf: redshift.conf
 
     # TODO: add the following (when ready)
     # .config/calibre
