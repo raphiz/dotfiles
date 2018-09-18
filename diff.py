@@ -120,17 +120,19 @@ class link_existing_files(dotbot.Plugin):
             self._log.warning('Invalid link %s -> %s' %
                               (link_name, self._link_destination(link_name)))
         elif self._exists(link_name) and not self._is_link(link_name):
-            # 1. copy link_name to 
-            # mv absolute_source to absolute_source + '.old'
-            # cp link_name to absolute_source
-            # do link!
-            # Make a backup copy
             shutil.copy2(absolute_source, absolute_source + '.old')
             os.unlink(absolute_source)
-            shutil.copy2(link_name, absolute_source)
-            self._log.error('%s -> %s' % (absolute_source, link_name))
-            self._log.error(
-                '%s already exists but is a regular file or directory' %
-                link_name)
+            shutil.copy2(destination, absolute_source)
+            os.unlink(destination)
+            try:
+                os.symlink(source, destination)
+            except OSError as err:
+                self._log.warning('Linking failed %s -> %s (%s)' %
+                                  (link_name, source, err))
+            else:
+                self._log.lowinfo('Creating link %s -> %s' %
+                                  (link_name, source))
+                success = True
+        else:
             success = True
         return success
