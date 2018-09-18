@@ -20,4 +20,9 @@ sync:
       remote-dir: Informatik/Fachbereich/Cloud_Solutions/Cloud/
     WED3:
       remote-dir: Informatik/Fachbereich/Web_Engineering_+_Design_3/WED3/
-
+    Bsys2:
+      remote-dir: Informatik/Fachbereich/Betriebssysteme_2/Bsys2/
+      local-dir: /home/raphiz/HSR/interesting/Bsys2/
+    Bsys1:
+      remote-dir: Informatik/Fachbereich/Betriebssysteme_2/Bsys2/
+      local-dir: /home/raphiz/HSR/interesting/Bsys2/

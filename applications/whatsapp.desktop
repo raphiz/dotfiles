@@ -5,4 +5,4 @@ Terminal=false
 Type=Application
 Name=Whatsapp
 Exec=google-chrome-stable --app="https://web.whatsapp.com"
-Icon=whatsappt
+Icon=whatsapp

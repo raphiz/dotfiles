@@ -16,9 +16,16 @@ export EDITOR='vim';
 
 alias l='ls -lah'
 alias top='htop'
-alias code='/home/raphiz/apps/VSCode-linux-x64/bin/code'
+
 # Autojump
 source /etc/profile.d/autojump.bash
+
+# Asciidoctor via docker-container
+function asciidoctor-pdf {
+  asciidoctor_pdf="docker run -ti --rm --user $(id -u) --volume $(pwd):/documents:z asciidoctor/docker-asciidoctor asciidoctor-pdf"
+  #asciidoctor_pdf="docker run -ti --rm --user $(id -u) --volume $(pwd):/documents:z asciidoctor/docker-asciidoctor ls -al #asciidoctor-pdf"
+  $asciidoctor_pdf "$1"
+}
 
 # NVM (temporarily)
 # TOO SLOW:
