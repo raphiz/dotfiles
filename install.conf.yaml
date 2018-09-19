@@ -30,17 +30,21 @@
 
     # Default applications & custom launchers
     ~/.config/mimeapps.list: mimeapps.list
-    ~/.local/share/applications/: # TODO: fix icons!
+    ~/.local/share/applications/:
         glob: true
         path: applications/*
 
     # redshift
     ~/.config/redshift/redshift.conf: redshift.conf
 
-    # TODO: add the following (when ready)
-    # .config/calibre
-    # .config/Code
-    # evtl. .mozilla
-    # evtl. .shutter/
+    # VSCode
+    ~/.config/Code/User/snippets/:
+        glob: true
+        path: vscode/snippets/*
+    ~/.config/Code/User/keybindings.json: vscode/keybindings.json
+    ~/.config/Code/User/locale.json: vscode/locale.json
+    ~/.config/Code/User/settings.json: vscode/settings.json
+
+    # manually restore .mozilla
 
 - clean: ['~']

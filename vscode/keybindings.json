@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "f6",
+        "command": "workbench.action.tasks.test"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.maximizeEditor"
+    }
+]
