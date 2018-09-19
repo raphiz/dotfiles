@@ -16,6 +16,7 @@ export EDITOR='vim';
 
 alias l='ls -lah'
 alias top='htop'
+alias pacman='pacmatic'
 
 # Autojump
 source /etc/profile.d/autojump.bash
