@@ -120,7 +120,6 @@ class link_existing_files(dotbot.Plugin):
             self._log.warning('Invalid link %s -> %s' %
                               (link_name, self._link_destination(link_name)))
         elif self._exists(link_name) and not self._is_link(link_name):
-            shutil.copy2(absolute_source, absolute_source + '.old')
             os.unlink(absolute_source)
             shutil.copy2(destination, absolute_source)
             os.unlink(destination)
