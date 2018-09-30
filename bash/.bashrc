@@ -16,6 +16,9 @@ export EDITOR='vim';
 
 alias l='ls -lah'
 alias top='htop'
+
+
+alias sudo='sudo ' # See https://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias pacman='pacmatic'
 
 # Autojump
