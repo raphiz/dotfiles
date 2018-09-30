@@ -11,7 +11,6 @@
       <property name="size" type="uint" value="30"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="8"/>
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="4"/>
@@ -68,17 +67,18 @@
     <property name="plugin-2" type="string" value="xfce4-clipman-plugin"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="vlc"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="redshift-gtk"/>
         <value type="string" value="thunar"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="scp-dbus-service.py"/>
+        <value type="string" value="qt4systrayicon.py"/>
       </property>
       <property name="names-hidden" type="array">
       </property>
     </property>
-    <property name="plugin-8" type="string" value="screenshooter"/>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="vlc"/>
