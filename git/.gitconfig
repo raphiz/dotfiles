@@ -11,3 +11,5 @@
     unstage = reset HEAD --
     l = log --oneline --graph --decorate
     amend = commit --amend --no-edit
+[commit]
+    template = ~/.gitmessage
