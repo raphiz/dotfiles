@@ -1,7 +1,5 @@
 [user]
-    email = mail@raphael.li
     name = Raphael Zimmermann
-    signingkey = E9C73898CF7C96D8D32137DF522CC66531B5A199
 [core]
     whitespace = warn
 [alias]
