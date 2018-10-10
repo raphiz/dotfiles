@@ -11,7 +11,7 @@ fi
 HISTSIZE=10000
 HISTFILESIZE=10000
 
-export PATH
+export PATH=/home/raphiz/.local/bin:$PATH
 export EDITOR='vim';
 
 alias l='ls -lah'
@@ -31,19 +31,16 @@ function asciidoctor-pdf {
   $asciidoctor_pdf "$1"
 }
 
-# NVM (temporarily)
-# TOO SLOW:
-# source /usr/share/nvm/init-nvm.sh
-alias source_nvm='unalias node && unalias nvm && unalias npm && source "/usr/share/nvm/init-nvm.sh"'
-alias nvm='source_nvm && nvm'
-alias node='source_nvm && node'
-alias npm='source_nvm && npm'
-
 # Append to the history file, don't overwrite it
 shopt -s histappend
 
 # For autojump
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
+
+# Complete AWS CLI (installed via pip)
+if [ -f ~/.local/bin/aws_completer ]; then
+	complete -C '~/.local/bin/aws_completer' aws
+fi
 
 function o(){
   xdg-open "$*" >/dev/null 2>&1 &
