@@ -19,12 +19,8 @@
     "MD029": false,
     "MD007": false
   },
-  "markdown.extension.orderedList.marker": "ordered",
-  "markdown.extension.showExplorer": false,
   "editor.smoothScrolling": true,
   "workbench.editor.enablePreview": false,
-  "markdown.extension.toc.plaintext": true,
-  "markdown.extension.toc.levels": "6..8",
   "extensions.ignoreRecommendations": false,
   "python.linting.pylintPath": "pylint",
   "python.linting.pep8Enabled": true,
@@ -32,7 +28,6 @@
   "python.linting.mypyEnabled": true,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "markdown.extension.toc.updateOnSave": false,
   "cSpell.spellCheckDelayMs": 3000,
   "cSpell.userWords": [
     "abschliessen",
@@ -92,6 +87,7 @@
     "mergen",
     "microservice",
     "mittelgrosse",
+    "mqtt",
     "nfrs",
     "nutzniesser",
     "nygard",
@@ -154,5 +150,6 @@
     "typescriptreact",
     "yml"
   ],
-  "vetur.format.defaultFormatter.html": "js-beautify-html"
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "explorer.confirmDragAndDrop": false
 }
