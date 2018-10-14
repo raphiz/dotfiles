@@ -4,7 +4,7 @@ text/plain=notepadqq.desktop;
 application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;
 image/png=viewnior.desktop;gimp.desktop;
 application/x-keepass2=org.keepassxc.KeePassXC.desktop;
-image/jpeg=gimp.desktop;
+image/jpeg=viewnior.desktop;gimp.desktop;
 application/pdf=qpdfview.desktop;
 application/javascript=notepadqq.desktop;
 application/json=notepadqq.desktop;
@@ -30,6 +30,7 @@ application/vnd.ms-publisher=notepadqq.desktop;libreoffice-draw.desktop;
 application/x-compressed-tar=xarchiver.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
 application/msword=libreoffice-writer.desktop;
+application/x-partial-download=vlc.desktop;
 
 [Default Applications]
 x-scheme-handler/mailto=thunderbird.desktop
