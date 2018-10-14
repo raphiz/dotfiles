@@ -34,6 +34,9 @@
     ~/.local/share/applications/:
         glob: true
         path: applications/*
+    ~/.local/share/icons/hicolor/128x128/apps/:
+        glob: true
+        path: icons/*
 
     # redshift
     ~/.config/redshift/redshift.conf: redshift.conf
