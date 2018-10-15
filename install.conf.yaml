@@ -49,6 +49,7 @@
     ~/.config/Code/User/locale.json: vscode/locale.json
     ~/.config/Code/User/settings.json: vscode/settings.json
 
-    # manually restore .mozilla
+    # libreoffice
+    ~/.config/libreoffice/4/user/wordbook/standard.dic: libreoffice/standard.dic
 
 - clean: ['~']
