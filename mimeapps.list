@@ -31,6 +31,10 @@ application/x-compressed-tar=xarchiver.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
 application/msword=libreoffice-writer.desktop;
 application/x-partial-download=vlc.desktop;
+text/x-log=notepadqq.desktop;
+application/x-x509-ca-cert=gcr-viewer.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.template=libreoffice-impress.desktop;
+application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop;
 
 [Default Applications]
 x-scheme-handler/mailto=thunderbird.desktop
