@@ -1,0 +1,8 @@
+{
+  "bash shebang": {
+    "scope": "shellscript",
+    "prefix": "shebang",
+    "body": ["#!/bin/env bash", "set -eEuo pipefail", "", "$2"],
+    "description": "Bash Shebang"
+  }
+}
