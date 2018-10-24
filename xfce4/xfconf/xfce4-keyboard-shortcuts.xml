@@ -60,6 +60,7 @@
       <property name="&lt;Super&gt;space" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Super&gt;h" type="string" value="xfce4-popup-clipman"/>
       <property name="&lt;Super&gt;l" type="string" value="light-locker-command  -l"/>
+      <property name="&lt;Primary&gt;q" type="string" value="true"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
