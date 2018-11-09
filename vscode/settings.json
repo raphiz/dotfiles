@@ -151,5 +151,6 @@
     "yml"
   ],
   "vetur.format.defaultFormatter.html": "js-beautify-html",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2
 }
