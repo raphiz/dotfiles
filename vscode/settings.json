@@ -13,12 +13,12 @@
   "editor.minimap.enabled": true,
   "explorer.openEditors.visible": 0,
   "[markdown]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 2
   },
-  "markdownlint.config": {
-    "MD029": false,
-    "MD007": false
-  },
+  // "markdownlint.config": {
+  //   "MD029": false,
+  //   "MD007": false
+  // },
   "editor.smoothScrolling": true,
   "workbench.editor.enablePreview": false,
   "extensions.ignoreRecommendations": false,
@@ -45,6 +45,7 @@
     "cynefin",
     "diskontierung",
     "diskontierungssatz",
+    "ergon",
     "fertigkeitsgrad",
     "fogcreek",
     "fortschrittsmass",
@@ -152,5 +153,7 @@
   ],
   "vetur.format.defaultFormatter.html": "js-beautify-html",
   "explorer.confirmDragAndDrop": false,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "window.titleBarStyle": "native",
+  "workbench.statusBar.feedback.visible": false
 }
