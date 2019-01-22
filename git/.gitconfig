@@ -1,5 +1,8 @@
 [user]
     name = Raphael Zimmermann
+    email = mail@raphael.li
+[include]
+    path = .gitlocal
 [core]
     whitespace = warn
 [alias]
