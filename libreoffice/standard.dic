@@ -3,6 +3,7 @@ lang: <none>
 type: positive
 ---
 AWS
+Cloud
 Cognito
 Confluence
 Core
@@ -10,6 +11,7 @@ Credentials
 DynamoDB
 Entität
 Entitäten
+Ergon
 Event
 Events
 JSON
