@@ -42,12 +42,9 @@
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="XF86AudioNext" type="string" value="pragha --next"/>
-      <property name="XF86AudioPrev" type="string" value="pragha --prev"/>
       <property name="XF86AudioMedia" type="string" value="pragha"/>
       <property name="XF86Memo" type="string" value="xfce4-notes"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
-      <property name="XF86AudioPlay" type="string" value="pragha --pause"/>
       <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
@@ -61,6 +58,9 @@
       <property name="&lt;Super&gt;h" type="string" value="xfce4-popup-clipman"/>
       <property name="&lt;Super&gt;l" type="string" value="light-locker-command  -l"/>
       <property name="&lt;Primary&gt;q" type="string" value="true"/>
+      <property name="XF86AudioPlay" type="string" value="audacious -t"/>
+      <property name="XF86AudioPrev" type="string" value="audacious -r"/>
+      <property name="XF86AudioNext" type="string" value="audacious -f"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
