@@ -32,5 +32,15 @@
     "key": "Escape",
     "command": "extension.jumpy-exit",
     "when": "editorTextFocus && jumpy.isJumpyMode"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.files.newUntitledFile",
+    "when": "editorTextFocus"
   }
 ]
