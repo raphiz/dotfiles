@@ -13,6 +13,7 @@
     # Git
     ~/.gitconfig: git/.gitconfig
     ~/.gitmessage: git/.gitmessage
+    ~/.gitignore: git/.gitignore
 
     # XFCE
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml: xfce4/xfconf/keyboard-layout.xml

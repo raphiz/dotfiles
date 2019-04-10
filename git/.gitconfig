@@ -5,6 +5,7 @@
     path = .gitlocal
 [core]
     whitespace = warn
+    excludesfile = ~/.gitignore
 [alias]
     a = add --patch
     st = status
