@@ -46,6 +46,7 @@ application/gzip=xarchiver.desktop;
 application/x-xz-compressed-tar=xarchiver.desktop;
 image/x-eps=viewnior.desktop;inkscape.desktop;
 application/pkix-cert=gcr-viewer.desktop;
+video/x-matroska=vlc.desktop;
 
 [Default Applications]
 x-scheme-handler/mailto=thunderbird.desktop
