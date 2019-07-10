@@ -8,8 +8,8 @@ fi
 # Source bash prompt
 . ~/.bash_prompt
 
-HISTSIZE=10000
-HISTFILESIZE=10000
+export HISTSIZE=10000
+export HISTFILESIZE=10000
 
 export PATH=/home/raphiz/.local/bin:/home/raphiz/.yarn/bin:$PATH
 export EDITOR='vim';
