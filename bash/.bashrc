@@ -17,9 +17,9 @@ export EDITOR='vim';
 alias l='ls -lah'
 alias top='htop'
 
-
 alias sudo='sudo ' # See https://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias pacman='pacmatic'
+alias yay-update='yay -Syu --sudoloop'
 
 # Autojump
 source /etc/profile.d/autojump.bash
@@ -45,3 +45,4 @@ fi
 function o(){
   xdg-open "$*" >/dev/null 2>&1 &
 }
+
