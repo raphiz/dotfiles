@@ -55,3 +55,9 @@ function o(){
   xdg-open "$*" >/dev/null 2>&1 &
 }
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/raphiz/.sdkman"
+[[ -s "/home/raphiz/.sdkman/bin/sdkman-init.sh" ]] && source "/home/raphiz/.sdkman/bin/sdkman-init.sh"
+
+eval "$(direnv hook bash)"
