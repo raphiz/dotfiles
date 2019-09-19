@@ -189,5 +189,6 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  "editor.renderWhitespace": "selection"
 }
