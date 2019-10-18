@@ -56,7 +56,7 @@
       <property name="&lt;Super&gt;e" type="string" value="Thunar"/>
       <property name="&lt;Super&gt;space" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Super&gt;h" type="string" value="xfce4-popup-clipman"/>
-      <property name="&lt;Super&gt;l" type="string" value="light-locker-command  -l"/>
+      <property name="&lt;Super&gt;l" type="string" value="xfce4-screensaver-command -l"/>
       <property name="&lt;Primary&gt;q" type="string" value="true"/>
       <property name="XF86AudioPlay" type="string" value="audacious -t"/>
       <property name="XF86AudioPrev" type="string" value="audacious -r"/>
