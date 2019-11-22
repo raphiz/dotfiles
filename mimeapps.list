@@ -8,7 +8,6 @@ image/jpeg=viewnior.desktop;gimp.desktop;
 application/pdf=qpdfview.desktop;
 application/javascript=notepadqq.desktop;
 application/json=notepadqq.desktop;
-x-scheme-handler/mailto=thunderbird.desktop;
 message/rfc822=thunderbird.desktop;
 application/zip=xarchiver.desktop;
 application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
@@ -49,7 +48,6 @@ application/pkix-cert=gcr-viewer.desktop;
 video/x-matroska=vlc.desktop;
 
 [Default Applications]
-x-scheme-handler/mailto=thunderbird.desktop
 message/rfc822=thunderbird.desktop
 image/png=viewnior.desktop
 x-scheme-handler/http=firefox.desktop
