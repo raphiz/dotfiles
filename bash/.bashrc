@@ -21,6 +21,8 @@ alias sudo='sudo ' # See https://askubuntu.com/questions/22037/aliases-not-avail
 alias pacman='pacmatic'
 alias yay-update='yay -Syu --sudoloop'
 
+alias xclip='xclip -selection clipboard'
+
 # Autojump
 source /etc/profile.d/autojump.bash
 
