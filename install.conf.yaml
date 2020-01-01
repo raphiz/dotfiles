@@ -26,9 +26,6 @@
     ~/.config/Thunar/uca.xml: thunar/uac.xml
     ~/.config/xfce4/panel/xfce4-time-out-plugin-11.rc: xfce4/panel/xfce4-time-out-plugin-11.rc
 
-    # emojis
-    ~/.config/fontconfig/conf.d/01-emoji.conf: fontconfig/01-emoji.conf
-
     # qpdfview
     ~/.config/qpdfview/shortcuts.conf: qpdfview/shortcuts.conf
 
