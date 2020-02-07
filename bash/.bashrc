@@ -64,4 +64,5 @@ export SDKMAN_DIR="/home/raphiz/.sdkman"
 
 eval "$(direnv hook bash)"
 
-alias cat='bat --theme OneHalfLight'
+alias bat='bat --theme OneHalfLight'
+alias cat='bat'
