@@ -73,4 +73,14 @@
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
+  {
+    "key": "ctrl+shift+a",
+    "command": "-editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "git.stageSelectedRanges",
+    "when": "editorTextFocus"
+  },
 ]
