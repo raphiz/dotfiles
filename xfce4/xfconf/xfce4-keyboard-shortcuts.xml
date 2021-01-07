@@ -61,6 +61,7 @@
       <property name="XF86AudioPlay" type="string" value="audacious -t"/>
       <property name="XF86AudioPrev" type="string" value="audacious -r"/>
       <property name="XF86AudioNext" type="string" value="audacious -f"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;e" type="string" value="/home/raphiz/apps/emoji/prompt.bash"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
