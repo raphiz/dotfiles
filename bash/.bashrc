@@ -33,15 +33,6 @@ function asciidoctor-pdf {
   $asciidoctor_pdf "$1"
 }
 
-function json_unescape {
-  read body
-  jq -n --arg msg "$body" '$msg | fromjson'
-}
-
-function json_escape {
-  jq ".| @json"
-}
-
 # Append to the history file, don't overwrite it
 shopt -s histappend
 
