@@ -54,9 +54,8 @@
   "workbench.editor.enablePreview": false,
   "extensions.ignoreRecommendations": false,
   "python.linting.pylintPath": "pylint",
-  "python.linting.pycodestyleEnabled": true,
-  "python.linting.flake8Enabled": true,
-  "python.linting.mypyEnabled": true,
+  "python.linting.pycodestyleEnabled": false,
+  "python.linting.flake8Enabled": false,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "cSpell.spellCheckDelayMs": 3000,
@@ -226,5 +225,10 @@
   "yaml.validate": false,
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.languageServer": "Pylance",
   }
 }
