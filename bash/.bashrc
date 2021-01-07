@@ -8,9 +8,6 @@ fi
 # Source bash prompt
 . ~/.bash_prompt
 
-export HISTSIZE=900000
-export HISTFILESIZE=90000
-
 # Show exit code of the latest command
 # if it was not 0.
 __sexy_bash_prompt=$PROMPT_COMMAND
@@ -26,40 +23,37 @@ __prompt_command() {
     	echo -e -n "[${BRed}$curr_exit${RCol}]"
     fi
 }
+# configure history
+export HISTSIZE=900000
+export HISTFILESIZE=90000
+shopt -s histappend # Append to the history file, don't overwrite it
 
-export PATH=/home/raphiz/.local/bin:/home/raphiz/.yarn/bin:$PATH
+# setup environment
+export PATH=/home/raphiz/.local/bin:$PATH
 export EDITOR="${EDITOR:-vim}"
 
+# setup aliases and shortcuts
 alias l='ls -lah'
 alias top='htop'
-
 alias sudo='sudo ' # See https://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias pacman='pacmatic'
 alias yay-update='yay -Syu --sudoloop'
+alias bat='bat --theme OneHalfLight'
+alias cat='bat'
 
-alias xclip='xclip -selection clipboard'
-
+function o(){
+  xdg-open "$*" >/dev/null 2>&1 &
+}
 # Autojump
 source /etc/profile.d/autojump.bash
-
-# Asciidoctor via docker-container
-function asciidoctor-pdf {
-  asciidoctor_pdf="docker run -ti --rm --user $(id -u) --volume $(pwd):/documents:z asciidoctor/docker-asciidoctor asciidoctor-pdf"
-  #asciidoctor_pdf="docker run -ti --rm --user $(id -u) --volume $(pwd):/documents:z asciidoctor/docker-asciidoctor ls -al #asciidoctor-pdf"
-  $asciidoctor_pdf "$1"
-}
-
-# Append to the history file, don't overwrite it
-shopt -s histappend
-
-# For autojump
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
 
-# Complete AWS CLI (installed via pip)
+
+# AWS stuff
+#  Bash completion (aws cli installt using: `pipx install awscli`)
 if [ -f ~/.local/bin/aws_completer ]; then
 	complete -C '~/.local/bin/aws_completer' aws
 fi
-
 alias awsume=". awsume"
 _awsume() {
     local cur prev opts
@@ -72,16 +66,15 @@ _awsume() {
 }
 complete -F _awsume awsume
 
-function o(){
-  xdg-open "$*" >/dev/null 2>&1 &
-}
 
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+
+# SDKMAN
 export SDKMAN_DIR="/home/raphiz/.sdkman"
 [[ -s "/home/raphiz/.sdkman/bin/sdkman-init.sh" ]] && source "/home/raphiz/.sdkman/bin/sdkman-init.sh"
 
+# Direnv
 eval "$(direnv hook bash)"
 
-alias bat='bat --theme OneHalfLight'
-alias cat='bat'
+# Nix
+if [ -e /home/raphiz/.nix-profile/etc/profile.d/nix.sh ]; then . /home/raphiz/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
