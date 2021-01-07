@@ -12,7 +12,7 @@ export HISTSIZE=10000
 export HISTFILESIZE=10000
 
 export PATH=/home/raphiz/.local/bin:/home/raphiz/.yarn/bin:$PATH
-export EDITOR='vim';
+export EDITOR="${EDITOR:-vim}"
 
 alias l='ls -lah'
 alias top='htop'
