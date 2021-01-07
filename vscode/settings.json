@@ -188,9 +188,7 @@
     "typescriptreact",
     "yml"
   ],
-  "vetur.format.defaultFormatter.html": "prettier",
   "explorer.confirmDragAndDrop": false,
-  "editor.tabSize": 2,
   "window.titleBarStyle": "native",
   "workbench.statusBar.feedback.visible": false,
   "[json]": {
@@ -226,9 +224,11 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
+  "diffEditor.ignoreTrimWhitespace": false,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.languageServer": "Pylance",
-  }
+  "terminal.integrated.scrollback": 50000,
+  "workbench.editor.showTabs": true
 }
