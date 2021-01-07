@@ -229,6 +229,10 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.languageServer": "Pylance",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
   "terminal.integrated.scrollback": 50000,
   "workbench.editor.showTabs": true
 }
