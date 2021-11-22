@@ -29,7 +29,7 @@
     # qpdfview
     ~/.config/qpdfview/shortcuts.conf: qpdfview/shortcuts.conf
 
-    # Default applications & custom launchers
+    # Default applications, custom launchers
     ~/.config/mimeapps.list: mimeapps.list
     ~/.local/share/applications/:
         glob: true
@@ -56,5 +56,6 @@
     ~/.config/ulauncher/extensions.json: ulauncher/extensions.json
     ~/.config/ulauncher/settings.json: ulauncher/settings.json
     ~/.config/ulauncher/shortcuts.json: ulauncher/shortcuts.json
+    ~/.config/autostart/ulauncher.desktop: ulauncher/ulauncher.desktop
 
 - clean: ['~']
