@@ -67,12 +67,6 @@ _awsume() {
 complete -F _awsume awsume
 
 
-
-
-# SDKMAN
-export SDKMAN_DIR="/home/raphiz/.sdkman"
-[[ -s "/home/raphiz/.sdkman/bin/sdkman-init.sh" ]] && source "/home/raphiz/.sdkman/bin/sdkman-init.sh"
-
 # Direnv
 eval "$(direnv hook bash)"
 
