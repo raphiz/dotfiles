@@ -17,11 +17,20 @@
       <property name="&lt;Super&gt;p" type="empty"/>
       <property name="&lt;Primary&gt;Escape" type="empty"/>
       <property name="XF86WWW" type="empty"/>
+      <property name="HomePage" type="empty"/>
       <property name="XF86Mail" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Escape" type="empty"/>
-      <property name="XF86LogOff" type="empty"/>
       <property name="Print" type="empty"/>
       <property name="&lt;Alt&gt;Print" type="empty"/>
+      <property name="&lt;Shift&gt;Print" type="empty"/>
+      <property name="&lt;Super&gt;e" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="empty"/>
+      <property name="&lt;Super&gt;r" type="empty">
+        <property name="startup-notify" type="empty"/>
+      </property>
+      <property name="&lt;Control&gt;&lt;Alt&gt;Escape" type="empty"/>
+      <property name="XF86LogOff" type="empty"/>
       <property name="XF86Calendar" type="empty"/>
       <property name="XF86Memo" type="empty"/>
       <property name="XF86Terminal" type="empty"/>
@@ -55,7 +64,6 @@
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;Return" type="string" value="xfce4-terminal"/>
       <property name="&lt;Super&gt;e" type="string" value="Thunar"/>
-      <property name="&lt;Super&gt;space" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Super&gt;h" type="string" value="xfce4-popup-clipman"/>
       <property name="&lt;Super&gt;l" type="string" value="light-locker-command  -l"/>
       <property name="&lt;Primary&gt;q" type="string" value="true"/>
@@ -120,6 +128,14 @@
       <property name="&lt;Primary&gt;F10" type="empty"/>
       <property name="&lt;Primary&gt;F11" type="empty"/>
       <property name="&lt;Primary&gt;F12" type="empty"/>
+      <property name="&lt;Super&gt;KP_Left" type="empty"/>
+      <property name="&lt;Super&gt;KP_Right" type="empty"/>
+      <property name="&lt;Super&gt;KP_Up" type="empty"/>
+      <property name="&lt;Super&gt;KP_Down" type="empty"/>
+      <property name="&lt;Super&gt;KP_Page_Up" type="empty"/>
+      <property name="&lt;Super&gt;KP_Home" type="empty"/>
+      <property name="&lt;Super&gt;KP_End" type="empty"/>
+      <property name="&lt;Super&gt;KP_Next" type="empty"/>
     </property>
     <property name="custom" type="empty">
       <property name="Up" type="string" value="up_key"/>
