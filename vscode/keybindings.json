@@ -25,15 +25,6 @@
     "command": "-workbench.action.quit"
   },
   {
-    "key": "shift+enter",
-    "command": "extension.jumpy-word"
-  },
-  {
-    "key": "Escape",
-    "command": "extension.jumpy-exit",
-    "when": "editorTextFocus && jumpy.isJumpyMode"
-  },
-  {
     "key": "ctrl+n",
     "command": "explorer.newFile",
     "when": "filesExplorerFocus"
@@ -83,4 +74,14 @@
     "command": "git.stageSelectedRanges",
     "when": "editorTextFocus"
   },
+  {
+    "key": "ctrl+enter",
+    "command": "rest-client.request",
+    "when": "editorTextFocus && editorLangId == 'http'"
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "-rest-client.request",
+    "when": "editorTextFocus && editorLangId == 'http'"
+  }
 ]

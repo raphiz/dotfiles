@@ -40,7 +40,6 @@
   ],
   "shellcheck.customArgs": ["-x"],
   "yaml.format.enable": true,
-  "window.zoomLevel": 0,
   "editor.minimap.enabled": true,
   "explorer.openEditors.visible": 0,
   "[markdown]": {
@@ -203,7 +202,7 @@
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "editor.renderWhitespace": "selection",
+  "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[html]": {
@@ -234,5 +233,11 @@
   },
   "vetur.format.defaultFormatter.js": "prettier-eslint",
   "terminal.integrated.scrollback": 50000,
-  "workbench.editor.showTabs": true
+  "workbench.editor.showTabs": true,
+  "workbench.colorCustomizations": {
+    "diffEditor.removedTextBackground": "#ffa0a055",
+    "diffEditor.insertedTextBackground": "#00ff2a55"
+},
+"rest-client.enableTelemetry": false,
+"security.workspace.trust.untrustedFiles": "open"
 }
