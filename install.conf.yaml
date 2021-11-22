@@ -52,4 +52,9 @@
     # libreoffice
     ~/.config/libreoffice/4/user/wordbook/standard.dic: libreoffice/standard.dic
 
+    # ulauncher
+    ~/.config/ulauncher/extensions.json: ulauncher/extensions.json
+    ~/.config/ulauncher/settings.json: ulauncher/settings.json
+    ~/.config/ulauncher/shortcuts.json: ulauncher/shortcuts.json
+
 - clean: ['~']
