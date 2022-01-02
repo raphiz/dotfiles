@@ -40,6 +40,8 @@
   ],
   "shellcheck.customArgs": ["-x"],
   "yaml.format.enable": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
   "editor.minimap.enabled": true,
   "explorer.openEditors.visible": 0,
   "[markdown]": {
