@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "GitHub Light",
+  "workbench.colorTheme": "GitHub Dark",
   "editor.fontFamily": "'Fira Mono','Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
   "window.menuBarVisibility": "toggle",
   "workbench.activityBar.visible": false,
@@ -241,5 +241,6 @@
     "diffEditor.insertedTextBackground": "#00ff2a55"
 },
 "rest-client.enableTelemetry": false,
-"security.workspace.trust.untrustedFiles": "open"
+"security.workspace.trust.untrustedFiles": "open",
+"redhat.telemetry.enabled": false
 }

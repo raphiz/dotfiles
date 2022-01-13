@@ -1,6 +1,6 @@
 [Configuration]
-ColorForeground=#073642
-ColorBackground=#fdf6e3
+ColorForeground=#dcdcdc
+ColorBackground=#2c2c2c
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -26,10 +26,9 @@ MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
-ColorPalette=rgb(7,54,66);rgb(220,50,47);rgb(133,153,0);rgb(181,137,0);rgb(38,139,210);rgb(211,54,130);rgb(42,161,152);rgb(88,110,117);rgb(0,43,54);rgb(203,75,22);rgb(88,110,117);rgb(101,123,131);rgb(131,148,150);rgb(108,113,196);rgb(147,161,161);rgb(88,110,117)
-ColorCursor=#073642
-ColorBold=#073642
-ColorBoldUseDefault=FALSE
-TabActivityColor=#dc322f
+ColorPalette=#3f3f3f;#705050;#60b48a;#dfaf8f;#9ab8d7;#dc8cc3;#8cd0d3;#dcdcdc;#709080;#dca3a3;#72d5a3;#f0dfaf;#94bff3;#ec93d3;#93e0e3;#ffffff
+ColorCursor=#dcdcdc
 ScrollingOnOutput=FALSE
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=TRUE
 
