@@ -9,7 +9,7 @@
     ~/.bashrc:
         force: true
         path: bash/.bashrc
-    ~/.bash_prompt: bash/.bash_prompt
+    ~/.bash_completion: bash/.bash_completion
 
     # Git
     ~/.gitconfig: git/.gitconfig
@@ -43,9 +43,7 @@
     ~/.config/redshift/redshift.conf: redshift.conf
 
     # VSCode
-    ~/.config/Code/User/snippets/:
-        glob: true
-        path: vscode/snippets/*
+    ~/.config/Code/User/snippets: vscode/snippets/
     ~/.config/Code/User/keybindings.json: vscode/keybindings.json
     ~/.config/Code/User/locale.json: vscode/locale.json
     ~/.config/Code/User/settings.json: vscode/settings.json
