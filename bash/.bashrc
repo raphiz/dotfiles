@@ -38,7 +38,6 @@ alias top='htop'
 alias sudo='sudo ' # See https://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias pacman='pacmatic'
 alias yay-update='yay -Syu --sudoloop'
-alias bat='bat --theme OneHalfLight'
 alias cat='bat'
 
 function o(){
