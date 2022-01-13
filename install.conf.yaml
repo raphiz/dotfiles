@@ -9,6 +9,7 @@
     ~/.bashrc:
         force: true
         path: bash/.bashrc
+    ~/.bash_prompt: bash/.bash_prompt
 
     # Git
     ~/.gitconfig: git/.gitconfig
