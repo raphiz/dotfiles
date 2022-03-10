@@ -45,7 +45,8 @@
   "editor.minimap.enabled": true,
   "explorer.openEditors.visible": 0,
   "[markdown]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   // "markdownlint.config": {
   //   "MD029": false,
@@ -242,5 +243,8 @@
 },
 "rest-client.enableTelemetry": false,
 "security.workspace.trust.untrustedFiles": "open",
-"redhat.telemetry.enabled": false
+"redhat.telemetry.enabled": false,
+"[dockercompose]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
 }
