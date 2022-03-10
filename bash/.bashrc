@@ -71,3 +71,9 @@ eval "$(direnv hook bash)"
 
 # Nix
 if [ -e /home/raphiz/.nix-profile/etc/profile.d/nix.sh ]; then . /home/raphiz/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+set +e
+for brcfile in ~/.bashrc.d/* ; do
+  [ -f "$brcfile" ] && . $brcfile
+done
+set -e
