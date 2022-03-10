@@ -76,4 +76,3 @@ set +e
 for brcfile in ~/.bashrc.d/* ; do
   [ -f "$brcfile" ] && . $brcfile
 done
-set -e
