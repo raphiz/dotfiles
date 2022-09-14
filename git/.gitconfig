@@ -6,6 +6,7 @@
 [core]
     whitespace = warn
     excludesfile = ~/.gitignore
+	autocrlf = input
 [alias]
     a = add --patch
     st = status
