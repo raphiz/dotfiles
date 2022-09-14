@@ -10,9 +10,11 @@
     a = add --patch
     st = status
     co = commit
-    unstage = reset HEAD --
+	unstage = reset
     l = log --oneline --graph --decorate
     amend = commit --amend --no-edit
+	uncommit = reset --soft HEAD~1
+	sla = log --oneline --decorate --graph --all
 [commit]
     template = ~/.gitmessage
 [pull]
