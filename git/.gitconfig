@@ -23,3 +23,6 @@
 	conflictstyle = diff3
 [init]
 	defaultBranch = main
+[push]
+	default = current
+	autoSetupRemote = true
