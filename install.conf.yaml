@@ -5,11 +5,11 @@
 
 - link:
    # Bash
-    ~/.bash_prompt: sexy-bash-prompt/.bash_prompt
     ~/.bashrc:
         force: true
         path: bash/.bashrc
     ~/.bash_completion: bash/.bash_completion
+    ~/.config/starship.toml: starship.toml
 
     # Git
     ~/.gitconfig: git/.gitconfig

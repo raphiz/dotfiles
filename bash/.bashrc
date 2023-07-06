@@ -5,24 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# Source bash prompt
-. ~/.bash_prompt
 
-# Show exit code of the latest command
-# if it was not 0.
-__sexy_bash_prompt=$PROMPT_COMMAND
-PROMPT_COMMAND=__prompt_command
-
-__prompt_command() {
-    local curr_exit="$?"
-
-    local BRed='\e[0;91m'
-    local RCol='\e[0m'
-
-    if [ "$curr_exit" != 0 ]; then
-    	echo -e -n "[${BRed}$curr_exit${RCol}]"
-    fi
-}
 # configure history
 export HISTSIZE=900000
 export HISTFILESIZE=90000
@@ -46,6 +29,10 @@ function o(){
 # Autojump
 source /etc/profile.d/autojump.bash
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
+
+# NOTE: Must happen AFTER autojump
+# https://github.com/starship/starship/issues/4973
+eval "$(starship init bash)"
 
 
 # AWS stuff
