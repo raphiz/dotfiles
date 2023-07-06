@@ -62,8 +62,6 @@
   "telemetry.enableCrashReporter": false,
   "cSpell.spellCheckDelayMs": 3000,
   "cSpell.userWords": [
-    "FWID",
-    "SNYK",
     "abschliessen",
     "anforderungsgemäss",
     "anschliessend",
@@ -72,6 +70,7 @@
     "asyncio",
     "ausschliesslich",
     "aussen",
+    "äussere",
     "begrüssung",
     "burndown",
     "cacheable",
@@ -83,26 +82,28 @@
     "diskontierung",
     "diskontierungssatz",
     "ergon",
+    "fastify",
     "fertigkeitsgrad",
     "fogcreek",
     "fortschrittsmass",
     "functionboxing",
     "füsse",
-    "gemerged",
+    "FWID",
     "gemäss",
+    "gemerged",
     "giga",
     "gleichmässig",
     "gleichmässiges",
     "granulare",
     "grobgranulare",
     "grosse",
+    "grösse",
     "grossem",
     "grossen",
-    "grossprojekt",
-    "grösse",
     "grösser",
     "grössere",
     "grösseres",
+    "grossprojekt",
     "grösste",
     "heisse",
     "heisst",
@@ -138,11 +139,11 @@
     "phasenübergänge",
     "pipefail",
     "pojo",
+    "pönale",
     "pptx",
     "preferenzen",
     "prerender",
     "projektgrösse",
-    "pönale",
     "qualitätsmassnahmen",
     "rdbms",
     "reduktionsalgorithmen",
@@ -158,6 +159,7 @@
     "seco",
     "signingkey",
     "slas",
+    "SNYK",
     "subclassing",
     "teamgrösse",
     "tracken",
@@ -165,8 +167,7 @@
     "vorlesungsfolien",
     "vorzustossen",
     "whitebox",
-    "yeks",
-    "äussere"
+    "yeks"
   ],
   "cSpell.language": ",de,en,en-GB,en-US,de-DE",
   "cSpell.enabledLanguageIds": [
@@ -194,7 +195,7 @@
   "window.titleBarStyle": "native",
   "workbench.statusBar.feedback.visible": false,
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -226,7 +227,6 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
@@ -246,5 +246,17 @@
 "redhat.telemetry.enabled": false,
 "[dockercompose]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
-}
+},
+"explorer.confirmDelete": false,
+"markdown-mermaid.languages": [
+  "mermaid"
+],
+"editor.inlineSuggest.enabled": true,
+"github.copilot.enable": {
+  "*": false,
+  "plaintext": false,
+  "markdown": true,
+  "scminput": false
+},
+"diffEditor.ignoreTrimWhitespace": false
 }
