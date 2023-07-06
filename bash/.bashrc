@@ -34,25 +34,6 @@ export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
 # https://github.com/starship/starship/issues/4973
 eval "$(starship init bash)"
 
-
-# AWS stuff
-#  Bash completion (aws cli installt using: `pipx install awscli`)
-if [ -f ~/.local/bin/aws_completer ]; then
-	complete -C '~/.local/bin/aws_completer' aws
-fi
-alias awsume=". awsume"
-_awsume() {
-    local cur prev opts
-    COMPREPLY=()
-    cur="${COMP_WORDS[COMP_CWORD]}"
-    prev="${COMP_WORDS[COMP_CWORD-1]}"
-    opts=$(awsume-autocomplete)
-    COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
-    return 0
-}
-complete -F _awsume awsume
-
-
 # Direnv
 eval "$(direnv hook bash)"
 
