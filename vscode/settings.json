@@ -4,7 +4,7 @@
   "window.menuBarVisibility": "toggle",
   "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": true,
-  "terminal.integrated.fontFamily": "'Fira Mono'",
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono','Fira Mono','Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
   "search.exclude": {
     "**/node_modules": true,
     "**/target": true
