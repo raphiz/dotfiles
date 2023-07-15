@@ -16,6 +16,8 @@
     amend = commit --amend --no-edit
     uncommit = reset --soft HEAD~1
     sla = log --oneline --decorate --graph --all
+    new = l main..HEAD
+    missing = l HEAD..main
 [commit]
     template = ~/.gitmessage
 [pull]
