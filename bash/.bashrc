@@ -15,7 +15,7 @@ export PATH=/home/raphiz/.local/bin:$PATH
 export EDITOR="${EDITOR:-vim}"
 
 # setup aliases and shortcuts
-alias l='ls -lah'
+alias l='ls -lah --color=auto'
 alias top='htop'
 alias sudo='sudo ' # See https://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias pacman='pacmatic'
