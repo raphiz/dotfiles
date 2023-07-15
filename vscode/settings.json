@@ -258,5 +258,7 @@
   "markdown": true,
   "scminput": false
 },
-"diffEditor.ignoreTrimWhitespace": false
+"diffEditor.ignoreTrimWhitespace": false,
+"alejandra.program": "/home/raphiz/.nix-profile/bin/alejandra",
+"nix.enableLanguageServer": true
 }
