@@ -5,7 +5,6 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-
 # configure history
 export HISTSIZE=900000
 export HISTFILESIZE=90000
@@ -21,6 +20,7 @@ alias top='htop'
 alias sudo='sudo ' # See https://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias pacman='pacmatic'
 alias yay-update='yay -Syu --sudoloop'
+alias bat='bat --theme=ansi --style="numbers,changes,header"'
 alias cat='bat'
 
 function o(){
